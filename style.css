@@ -8,15 +8,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
     text-decoration: none;
     font-size: 17px;
     background-color: whitesmoke; 
-    align-content: stretch; 
-
   }
+
   .navbar{
     background-color: whitesmoke; 
     padding: 12px;
     opacity: .4;
-
-
   }
   
   /* Navbar links on mouse-over */
@@ -24,6 +21,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color: whitesmoke;
     opacity: .8;
   }
+
   .navbar a:hover {
     background-color: black;
     opacity: .8;
@@ -36,12 +34,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
+  @media (max-width: 800px) {
     .navbar a {
       float: none;
       display: block;
     }
-  }
+    
+    .bottom-right {
+        position:absolute !important;
+        bottom: 0px;
+        right: 0px !important;
+    }
+}
 
 .COD{
     display: inline-block; 
