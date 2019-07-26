@@ -1,0 +1,199 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+/* Navbar links */
+.navbar a {
+    display: inline; 
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: whitesmoke; 
+    align-content: stretch; 
+
+  }
+  .navbar{
+    background-color: whitesmoke; 
+    padding: 12px;
+    opacity: .4;
+
+
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar:hover {
+    background-color: whitesmoke;
+    opacity: .8;
+  }
+  .navbar a:hover {
+    background-color: black;
+    opacity: .8;
+    color: whitesmoke; 
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: blue;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+.COD{
+    display: inline-block; 
+    text-align: center; 
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+    width: 40%; 
+    border-style: solid; 
+    border-color: black;
+    background-color: black; 
+    text-align: left; 
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: orange; 
+}
+#paragraph{
+    color: white;
+}
+  
+@media only screen and (max-width: 825px){
+    .bottom-right{
+        border-style: solid; 
+        border-color: black;
+        background-color: black; 
+        
+        font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        color: orange; 
+        font-size: 12px; 
+
+        margin: 0 auto;
+        max-width: 600px;
+        position: absolute;
+        bottom: 0;   
+        width: 100%;   
+    }
+}
+@media only screen and (max-width: 450px){
+    .intro{
+        display: flex; 
+        flex-direction: column; 
+    }
+    .bottom-right {
+        border-style: solid; 
+        border-color: black;
+        background-color: black; 
+        
+        font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        color: orange; 
+        font-size: 8px; 
+
+        max-width: 300px;
+        position: relative;
+        text-align: center;  
+        bottom: 0;   
+        width: 100%;   
+    }
+    #paragraph{
+        color: white;
+    }
+    .COD{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    #pic1{
+        opacity: .5; 
+        width: auto; 
+        
+    }
+  
+    #pic2{
+      opacity: .5; 
+      width: 100%; 
+     
+    }
+    #pic3{
+  
+      opacity: .5; 
+      width: 100%; 
+       
+    }
+    #pic4{
+  
+      opacity: .5; 
+      width: 100%; 
+      
+    }
+    #pic1:hover{
+        opacity: 1;
+    }
+    #pic2:hover{
+        opacity: 1;
+    }
+    #pic3:hover{
+        opacity: 1;
+    }
+    #pic4:hover{
+        opacity: 1;
+    }
+}
+body{
+    max-width: 100%;
+    background-image: url("https://marketplace.canva.com/MADerJ_5cCU/1/thumbnail_large/canva-the-dark-clouds-before-heavy-rain-storm.-MADerJ_5cCU.jpg"); 
+    width: auto;
+    background-size: 100%; 
+
+}
+
+#pic{
+    width: 100%;
+}
+#pic1{
+      opacity: .5; 
+      width: 49%; 
+
+  }
+
+#pic2{
+    opacity: .5; 
+    width: 49%; 
+   
+}
+#pic3{
+
+    opacity: .5; 
+    width: 49%; 
+     
+}
+#pic4{
+
+    opacity: .5; 
+    width: 49%; 
+    
+}
+
+#pic1:hover{
+    opacity: 1;
+}
+#pic2:hover{
+    opacity: 1;
+}
+#pic3:hover{
+    opacity: 1;
+}
+#pic4:hover{
+    opacity: 1;
+}
